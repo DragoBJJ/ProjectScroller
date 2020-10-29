@@ -1,0 +1,26 @@
+.scroller__nav {
+  position: fixed;
+  right: 2vw;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.scroller__nav ul {
+  list-style: none;
+}
+
+.scroller__nav ul li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(29, 29, 32, 0.6);
+  cursor: pointer;
+}
+
+.scroller__nav ul li + li {
+  margin-top: 20px;
+}
+
+.scroller__nav ul li.active {
+  background-color: rgb(90, 110, 224);
+}
